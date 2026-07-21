@@ -30,7 +30,7 @@ def upload_attachment(file, bg_request_id, attachment_type):
     file_path = upload_dir / f"{slugify(attachment_type)}{ext}"
     file.stream.seek(0)
     file.save(file_path)
-    return str(file_path)
+    return f"{bg_request_id}/{slugify(attachment_type)}{ext}"
 
 def get_signed_url(file_path, expires_in=3600):
     if current_app.extensions.get('supabase_enabled'):
@@ -42,6 +42,11 @@ def get_signed_url(file_path, expires_in=3600):
                 return response.get('signedURL') or response.get('data', {}).get('signedURL')
             except Exception as e:
                 print(f"Supabase storage signed URL failed: {e}. Falling back to local path.")
+    
+    if "uploads/" in file_path:
+        return "/uploads/" + file_path.split("uploads/", 1)[1]
+    if not file_path.startswith('/'):
+        return f"/uploads/{file_path}"
     return file_path
 
 def delete_attachment(file_path):

@@ -7,7 +7,7 @@ report_bp = Blueprint('report', __name__)
 @login_required
 def reports():
     store = current_app.extensions['demo_store']
-    requests = store.list_requests()
+    requests = [r for r in store.list_requests() if r.get('status') != 'Draft']
     total_bg_amount = sum(
         float(r.get('bg_amount', 0) or 0)
         for r in requests

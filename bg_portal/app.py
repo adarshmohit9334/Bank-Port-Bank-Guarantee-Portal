@@ -15,6 +15,11 @@ def create_app():
     def index():
         return redirect(url_for('dashboard.homepage'))
 
+    @app.route('/uploads/<path:filename>')
+    def uploaded_file(filename):
+        from flask import send_from_directory
+        return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
+
     return app
 
 app = create_app()

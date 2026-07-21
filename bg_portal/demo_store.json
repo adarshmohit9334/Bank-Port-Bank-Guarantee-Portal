@@ -179,6 +179,32 @@
       "mobile_no": "9999999999",
       "role": "requester",
       "manager_id": null
+    },
+    "a91e0670-12cd-4c7f-939f-4c70c5d26807": {
+      "id": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "personnel_no": "EMP1001",
+      "name": "ADARSH KUMAR",
+      "email": "adarshmohit9334@gmail.com",
+      "department": "IT & Security",
+      "designation": "EMPLOYEE",
+      "mobile_no": "9334721693",
+      "role": "requester",
+      "manager_id": null,
+      "is_active": true,
+      "password": "Soni@123"
+    },
+    "33405dca-a96d-44ef-9881-937c224de156": {
+      "id": "33405dca-a96d-44ef-9881-937c224de156",
+      "personnel_no": "151539",
+      "name": "Irshad",
+      "email": "test@gmail.com",
+      "department": "IT & Security",
+      "designation": "Developer",
+      "mobile_no": "6201848723",
+      "role": "requester",
+      "manager_id": null,
+      "is_active": true,
+      "password": "jusco@123"
     }
   },
   "bg_requests": {
@@ -319,10 +345,10 @@
       "bg_claim_period": "6 month",
       "remarks": "\r\n\r\n",
       "approval_level": "MD",
-      "status": "Under Review",
-      "admin_remarks": "na",
+      "status": "Approved",
+      "admin_remarks": "Direct one-click approval from dashboard",
       "decided_by": "user-admin-1",
-      "decision_at": "2026-06-22T18:54:52.687606",
+      "decision_at": "2026-06-26T09:21:15.147544",
       "created_at": "2026-06-22T18:24:39.700759",
       "updated_at": "2026-06-22T18:24:39.700765"
     },
@@ -391,12 +417,108 @@
       "bg_claim_period": "6 months",
       "remarks": "",
       "approval_level": "Board",
-      "status": "Pending",
-      "admin_remarks": "",
-      "decided_by": null,
-      "decision_at": null,
+      "status": "Rejected",
+      "admin_remarks": "not applicable",
+      "decided_by": "user-admin-1",
+      "decision_at": "2026-06-26T09:21:31.904426",
       "created_at": "2026-06-24T17:09:31.264612",
       "updated_at": "2026-06-24T17:09:31.264622"
+    },
+    "d49ef50f-7d96-469d-a12b-86dff45b8b1f": {
+      "id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "requester_id": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "department": "IT & Security",
+      "location": "PATNA",
+      "date_of_request": "2026-06-26",
+      "work_order_no": "3",
+      "type_of_work": "send",
+      "job_value": "120000",
+      "alternate_owner_id": "",
+      "party_name": "adarsh",
+      "nature_of_bg": "Performance Bond",
+      "bg_amount": 13333333.0,
+      "bg_expiry_date": "2026-06-07",
+      "bg_claim_period": "6 months",
+      "remarks": "",
+      "approval_level": "Board",
+      "status": "Under Review",
+      "admin_remarks": "under review",
+      "decided_by": "user-admin-1",
+      "decision_at": "2026-06-26T09:21:46.867361",
+      "created_at": "2026-06-26T09:20:47.507209",
+      "updated_at": "2026-06-26T09:20:47.507215"
+    },
+    "f4b86bb1-a6af-498b-b2fb-c2d70c864260": {
+      "id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "requester_id": "33405dca-a96d-44ef-9881-937c224de156",
+      "department": "IT & Security",
+      "location": "PATNA",
+      "date_of_request": "2026-06-29",
+      "work_order_no": "3",
+      "type_of_work": "import",
+      "job_value": "500000",
+      "alternate_owner_id": "76da0932-6e74-4427-a6cb-fc4b1f5e8004",
+      "party_name": "adarsh",
+      "nature_of_bg": "Financial Guarantee",
+      "bg_amount": 1500000.0,
+      "bg_expiry_date": "2026-06-29",
+      "bg_claim_period": "6 months",
+      "remarks": "test",
+      "approval_level": "MD",
+      "status": "Approved",
+      "admin_remarks": "ok",
+      "decided_by": "user-admin-1",
+      "decision_at": "2026-06-29T04:31:07.619828",
+      "created_at": "2026-06-29T04:28:51.011378",
+      "updated_at": "2026-06-29T04:28:51.011385"
+    },
+    "d3cb7c16-3259-493e-bd6f-a0e9197109d0": {
+      "id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "requester_id": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "department": "IT & Security",
+      "location": "PATNA",
+      "date_of_request": "2026-06-29",
+      "work_order_no": "3",
+      "type_of_work": "import",
+      "job_value": "2400000",
+      "alternate_owner_id": "4941c434-1e8e-4522-bc86-7d9fc3684242",
+      "party_name": "adarsh",
+      "nature_of_bg": "Financial Guarantee",
+      "bg_amount": 10600000.0,
+      "bg_expiry_date": "2026-06-11",
+      "bg_claim_period": "6 months",
+      "remarks": "test",
+      "approval_level": "Board",
+      "status": "Approved",
+      "admin_remarks": "ok",
+      "decided_by": "user-admin-1",
+      "decision_at": "2026-06-29T05:26:00.269268",
+      "created_at": "2026-06-29T05:21:48.525598",
+      "updated_at": "2026-06-29T05:21:48.525603"
+    },
+    "fd4ab823-dc4b-4164-82da-03c89ea5c1f4": {
+      "id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "requester_id": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "department": "IT & Security",
+      "location": "PATNA",
+      "date_of_request": "2026-06-29",
+      "work_order_no": "3",
+      "type_of_work": "import",
+      "job_value": "2400000",
+      "alternate_owner_id": "4941c434-1e8e-4522-bc86-7d9fc3684242",
+      "party_name": "adarsh",
+      "nature_of_bg": "Financial Guarantee",
+      "bg_amount": 10600000.0,
+      "bg_expiry_date": "2026-06-11",
+      "bg_claim_period": "6 months",
+      "remarks": "test",
+      "approval_level": "Board",
+      "status": "Rejected",
+      "admin_remarks": "no",
+      "decided_by": "user-admin-1",
+      "decision_at": "2026-06-29T05:26:13.330457",
+      "created_at": "2026-06-29T05:23:37.414251",
+      "updated_at": "2026-06-29T05:23:37.414256"
     }
   },
   "attachments": {
@@ -478,7 +600,8 @@
       "attachment_type": "bg_vetted_draft",
       "file_name": "WhatsApp Image 2026-02-24 at 01.18.44.jpeg",
       "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/68cf03b8-7466-4882-b766-356ad984b434/bg_vetted_draft.jpeg",
-      "uploaded_at": "2026-06-24T17:09:32.988812"
+      "uploaded_at": "2026-06-24T17:09:32.988812",
+      "signed_url": "/uploads/68cf03b8-7466-4882-b766-356ad984b434/bg_vetted_draft.jpeg"
     },
     "c7d9ea4c-b13d-4dc7-b3cd-2406ae455433": {
       "id": "c7d9ea4c-b13d-4dc7-b3cd-2406ae455433",
@@ -486,7 +609,8 @@
       "attachment_type": "board_approval",
       "file_name": "WhatsApp Image 2025-12-03 at 19.50.31.jpeg",
       "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/68cf03b8-7466-4882-b766-356ad984b434/board_approval.jpeg",
-      "uploaded_at": "2026-06-24T17:09:33.354081"
+      "uploaded_at": "2026-06-24T17:09:33.354081",
+      "signed_url": "/uploads/68cf03b8-7466-4882-b766-356ad984b434/board_approval.jpeg"
     },
     "664600d9-c4ca-4f62-9594-cb464037416d": {
       "id": "664600d9-c4ca-4f62-9594-cb464037416d",
@@ -494,7 +618,8 @@
       "attachment_type": "beneficiary_clause",
       "file_name": "WhatsApp Image 2026-03-30 at 15.05.45.jpeg",
       "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/68cf03b8-7466-4882-b766-356ad984b434/beneficiary_clause.jpeg",
-      "uploaded_at": "2026-06-24T17:09:33.774641"
+      "uploaded_at": "2026-06-24T17:09:33.774641",
+      "signed_url": "/uploads/68cf03b8-7466-4882-b766-356ad984b434/beneficiary_clause.jpeg"
     },
     "89aace2d-b3c1-4528-82b8-23de525e37e4": {
       "id": "89aace2d-b3c1-4528-82b8-23de525e37e4",
@@ -502,7 +627,152 @@
       "attachment_type": "bank_account_details",
       "file_name": "WhatsApp Image 2026-02-24 at 01.17.59.jpeg",
       "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/68cf03b8-7466-4882-b766-356ad984b434/bank_account_details.jpeg",
-      "uploaded_at": "2026-06-24T17:09:35.288075"
+      "uploaded_at": "2026-06-24T17:09:35.288075",
+      "signed_url": "/uploads/68cf03b8-7466-4882-b766-356ad984b434/bank_account_details.jpeg"
+    },
+    "95019985-2d3d-4060-bffc-d90bb6964c9d": {
+      "id": "95019985-2d3d-4060-bffc-d90bb6964c9d",
+      "bg_request_id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "attachment_type": "bg_vetted_draft",
+      "file_name": "WhatsApp Image 2026-02-24 at 00.14.51.jpeg",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/bg_vetted_draft.jpeg",
+      "uploaded_at": "2026-06-26T09:20:48.806766",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/bg_vetted_draft.jpeg"
+    },
+    "7c97b891-a2c2-4299-b1a8-43d8bbc53d3e": {
+      "id": "7c97b891-a2c2-4299-b1a8-43d8bbc53d3e",
+      "bg_request_id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "attachment_type": "board_approval",
+      "file_name": "WhatsApp Image 2026-01-11 at 20.51.02.jpeg",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/board_approval.jpeg",
+      "uploaded_at": "2026-06-26T09:20:49.268786",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/board_approval.jpeg"
+    },
+    "67fb8e17-0528-4bfd-ab99-956eae84ba7a": {
+      "id": "67fb8e17-0528-4bfd-ab99-956eae84ba7a",
+      "bg_request_id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "attachment_type": "beneficiary_clause",
+      "file_name": "WhatsApp Image 2026-03-31 at 22.39.32.jpeg",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/beneficiary_clause.jpeg",
+      "uploaded_at": "2026-06-26T09:20:49.655190",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/beneficiary_clause.jpeg"
+    },
+    "3b54c6a7-3719-4398-906a-ca8fc0e9e32d": {
+      "id": "3b54c6a7-3719-4398-906a-ca8fc0e9e32d",
+      "bg_request_id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "attachment_type": "bank_account_details",
+      "file_name": "WhatsApp Image 2026-02-24 at 00.14.51.jpeg",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/bank_account_details.jpeg",
+      "uploaded_at": "2026-06-26T09:20:50.464879",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/d49ef50f-7d96-469d-a12b-86dff45b8b1f/bank_account_details.jpeg"
+    },
+    "1751fa53-f9dc-43df-bfac-2f5df44525f6": {
+      "id": "1751fa53-f9dc-43df-bfac-2f5df44525f6",
+      "bg_request_id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "attachment_type": "bg_vetted_draft",
+      "file_name": "3289600.3290994 (1).pdf",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/bg_vetted_draft.pdf",
+      "uploaded_at": "2026-06-29T04:28:52.573820",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/bg_vetted_draft.pdf"
+    },
+    "f2d18bdb-f565-4a1a-991c-318192c9037b": {
+      "id": "f2d18bdb-f565-4a1a-991c-318192c9037b",
+      "bg_request_id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "attachment_type": "md_approval",
+      "file_name": "3289600.3290994.pdf",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/md_approval.pdf",
+      "uploaded_at": "2026-06-29T04:28:53.712683",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/md_approval.pdf"
+    },
+    "571a47da-4144-4704-afbf-c428d943ed28": {
+      "id": "571a47da-4144-4704-afbf-c428d943ed28",
+      "bg_request_id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "attachment_type": "beneficiary_clause",
+      "file_name": "3289600.3290994 (1).pdf",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/beneficiary_clause.pdf",
+      "uploaded_at": "2026-06-29T04:28:54.852779",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/beneficiary_clause.pdf"
+    },
+    "129d3d5a-e4d9-463d-95be-c417373b6c2f": {
+      "id": "129d3d5a-e4d9-463d-95be-c417373b6c2f",
+      "bg_request_id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "attachment_type": "bank_account_details",
+      "file_name": "3289600.3290994.pdf",
+      "file_path": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/bank_account_details.pdf",
+      "uploaded_at": "2026-06-29T04:28:56.209054",
+      "signed_url": "/Users/adarshkumar/Downloads/Adarsh_Internship/Internship-Project/bg_portal/uploads/f4b86bb1-a6af-498b-b2fb-c2d70c864260/bank_account_details.pdf"
+    },
+    "2a168981-ac23-465b-bdd5-bc724db6c449": {
+      "id": "2a168981-ac23-465b-bdd5-bc724db6c449",
+      "bg_request_id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "attachment_type": "bg_vetted_draft",
+      "file_name": "1272251304 -  ADARSH KUMAR.pdf",
+      "file_path": "d3cb7c16-3259-493e-bd6f-a0e9197109d0/bg_vetted_draft.pdf",
+      "uploaded_at": "2026-06-29T05:23:06.759514",
+      "signed_url": "/uploads/d3cb7c16-3259-493e-bd6f-a0e9197109d0/bg_vetted_draft.pdf"
+    },
+    "991e0f05-72bd-4179-aa61-e979ad377e60": {
+      "id": "991e0f05-72bd-4179-aa61-e979ad377e60",
+      "bg_request_id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "attachment_type": "board_approval",
+      "file_name": "1211212.jpeg",
+      "file_path": "d3cb7c16-3259-493e-bd6f-a0e9197109d0/board_approval.jpeg",
+      "uploaded_at": "2026-06-29T05:23:11.868479",
+      "signed_url": "/uploads/d3cb7c16-3259-493e-bd6f-a0e9197109d0/board_approval.jpeg"
+    },
+    "f8b0eb5c-7962-4167-867f-3bfa0db24da9": {
+      "id": "f8b0eb5c-7962-4167-867f-3bfa0db24da9",
+      "bg_request_id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "attachment_type": "beneficiary_clause",
+      "file_name": "3289600.3290994.pdf",
+      "file_path": "d3cb7c16-3259-493e-bd6f-a0e9197109d0/beneficiary_clause.pdf",
+      "uploaded_at": "2026-06-29T05:23:16.740706",
+      "signed_url": "/uploads/d3cb7c16-3259-493e-bd6f-a0e9197109d0/beneficiary_clause.pdf"
+    },
+    "000d3a97-2ead-4702-8d9c-1cafa9cc87f5": {
+      "id": "000d3a97-2ead-4702-8d9c-1cafa9cc87f5",
+      "bg_request_id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "attachment_type": "bg_vetted_draft",
+      "file_name": "1272251304 -  ADARSH KUMAR.pdf",
+      "file_path": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4/bg_vetted_draft.pdf",
+      "uploaded_at": "2026-06-29T05:23:38.417373",
+      "signed_url": "/uploads/fd4ab823-dc4b-4164-82da-03c89ea5c1f4/bg_vetted_draft.pdf"
+    },
+    "474a4f74-803d-4912-a968-4a1f243b4956": {
+      "id": "474a4f74-803d-4912-a968-4a1f243b4956",
+      "bg_request_id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "attachment_type": "bank_account_details",
+      "file_name": "1272251304 -  ADARSH KUMAR.pdf",
+      "file_path": "d3cb7c16-3259-493e-bd6f-a0e9197109d0/bank_account_details.pdf",
+      "uploaded_at": "2026-06-29T05:23:38.421962",
+      "signed_url": "/uploads/d3cb7c16-3259-493e-bd6f-a0e9197109d0/bank_account_details.pdf"
+    },
+    "bbad1319-e2f7-4c66-9ec9-de65a9ca63bf": {
+      "id": "bbad1319-e2f7-4c66-9ec9-de65a9ca63bf",
+      "bg_request_id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "attachment_type": "board_approval",
+      "file_name": "1211212.jpeg",
+      "file_path": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4/board_approval.jpeg",
+      "uploaded_at": "2026-06-29T05:23:44.347737",
+      "signed_url": "/uploads/fd4ab823-dc4b-4164-82da-03c89ea5c1f4/board_approval.jpeg"
+    },
+    "b0d49a9b-d184-4685-beae-c2412188c266": {
+      "id": "b0d49a9b-d184-4685-beae-c2412188c266",
+      "bg_request_id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "attachment_type": "beneficiary_clause",
+      "file_name": "3289600.3290994.pdf",
+      "file_path": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4/beneficiary_clause.pdf",
+      "uploaded_at": "2026-06-29T05:24:03.448382",
+      "signed_url": "/uploads/fd4ab823-dc4b-4164-82da-03c89ea5c1f4/beneficiary_clause.pdf"
+    },
+    "6116f07c-4246-4c8d-8216-44a81992934f": {
+      "id": "6116f07c-4246-4c8d-8216-44a81992934f",
+      "bg_request_id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "attachment_type": "bank_account_details",
+      "file_name": "1272251304 -  ADARSH KUMAR.pdf",
+      "file_path": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4/bank_account_details.pdf",
+      "uploaded_at": "2026-06-29T05:25:00.958405",
+      "signed_url": "/uploads/fd4ab823-dc4b-4164-82da-03c89ea5c1f4/bank_account_details.pdf"
     }
   },
   "activity": [
@@ -615,6 +885,106 @@
       "new_status": "Pending",
       "note": "Request submitted for approval",
       "created_at": "2026-06-24T17:09:35.488495"
+    },
+    {
+      "id": "6593bf51-96c4-437a-837e-1fe4877b2172",
+      "bg_request_id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "action_by": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "action": "Submitted request",
+      "old_status": "Draft",
+      "new_status": "Pending",
+      "note": "Request submitted for approval",
+      "created_at": "2026-06-26T09:20:50.692633"
+    },
+    {
+      "id": "12d6ac43-ebfd-45e3-8080-0073b7f756fe",
+      "bg_request_id": "dfc4c565-fdec-42c9-ba5c-0f5ad0c9366c",
+      "action_by": "user-admin-1",
+      "action": "Updated status",
+      "old_status": "Approved",
+      "new_status": "Approved",
+      "note": "Direct one-click approval from dashboard",
+      "created_at": "2026-06-26T09:21:15.384820"
+    },
+    {
+      "id": "c7d19676-fded-4909-8d9e-1235c8893629",
+      "bg_request_id": "68cf03b8-7466-4882-b766-356ad984b434",
+      "action_by": "user-admin-1",
+      "action": "Updated status",
+      "old_status": "Rejected",
+      "new_status": "Rejected",
+      "note": "not applicable",
+      "created_at": "2026-06-26T09:21:32.102696"
+    },
+    {
+      "id": "7f3b6185-ab05-4454-bf58-9e519b649761",
+      "bg_request_id": "d49ef50f-7d96-469d-a12b-86dff45b8b1f",
+      "action_by": "user-admin-1",
+      "action": "Updated status",
+      "old_status": "Under Review",
+      "new_status": "Under Review",
+      "note": "under review",
+      "created_at": "2026-06-26T09:21:47.298389"
+    },
+    {
+      "id": "3c2029c4-8776-444f-bdd0-010ed3893ade",
+      "bg_request_id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "action_by": "33405dca-a96d-44ef-9881-937c224de156",
+      "action": "Submitted request",
+      "old_status": "Draft",
+      "new_status": "Pending",
+      "note": "Request submitted for approval",
+      "created_at": "2026-06-29T04:28:56.343876"
+    },
+    {
+      "id": "f4e8c03b-933c-48a4-912d-5a86da6c7963",
+      "bg_request_id": "f4b86bb1-a6af-498b-b2fb-c2d70c864260",
+      "action_by": "user-admin-1",
+      "action": "Updated status",
+      "old_status": "Approved",
+      "new_status": "Approved",
+      "note": "ok",
+      "created_at": "2026-06-29T04:31:07.798205"
+    },
+    {
+      "id": "6a636249-62ad-4cf9-b8cf-3119ccc4bf77",
+      "bg_request_id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "action_by": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "action": "Submitted request",
+      "old_status": "Draft",
+      "new_status": "Pending",
+      "note": "Request submitted for approval",
+      "created_at": "2026-06-29T05:23:39.865941"
+    },
+    {
+      "id": "4fe7ce96-70f8-4a89-adee-c3b76118f7df",
+      "bg_request_id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "action_by": "a91e0670-12cd-4c7f-939f-4c70c5d26807",
+      "action": "Submitted request",
+      "old_status": "Draft",
+      "new_status": "Pending",
+      "note": "Request submitted for approval",
+      "created_at": "2026-06-29T05:25:01.026163"
+    },
+    {
+      "id": "7b72a24d-b615-4974-826d-89fc2d0c81a2",
+      "bg_request_id": "d3cb7c16-3259-493e-bd6f-a0e9197109d0",
+      "action_by": "user-admin-1",
+      "action": "Updated status",
+      "old_status": "Approved",
+      "new_status": "Approved",
+      "note": "ok",
+      "created_at": "2026-06-29T05:26:00.468798"
+    },
+    {
+      "id": "23155750-9dda-406c-a4ac-13b2fb981d5a",
+      "bg_request_id": "fd4ab823-dc4b-4164-82da-03c89ea5c1f4",
+      "action_by": "user-admin-1",
+      "action": "Updated status",
+      "old_status": "Rejected",
+      "new_status": "Rejected",
+      "note": "no",
+      "created_at": "2026-06-29T05:26:13.514098"
     }
   ],
   "settings": {

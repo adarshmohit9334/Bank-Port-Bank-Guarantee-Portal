@@ -9,7 +9,7 @@ admin_bp = Blueprint('admin', __name__)
 @admin_required
 def dashboard():
     store = current_app.extensions['demo_store']
-    reqs = store.list_requests()
+    reqs = [r for r in store.list_requests() if r.get('status') != 'Draft']
     pending = [r for r in reqs if r.get('status') == 'Pending']
     approved = [r for r in reqs if r.get('status') == 'Approved']
     rejected = [r for r in reqs if r.get('status') == 'Rejected']
@@ -26,7 +26,8 @@ def dashboard():
 @admin_required
 def all_requests():
     store = current_app.extensions['demo_store']
-    return render_template('admin/all_requests.html', requests=store.list_requests())
+    requests = [r for r in store.list_requests() if r.get('status') != 'Draft']
+    return render_template('admin/all_requests.html', requests=requests)
 
 @admin_bp.route('/admin/approved')
 @admin_required
