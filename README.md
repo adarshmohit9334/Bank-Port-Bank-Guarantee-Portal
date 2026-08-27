@@ -49,7 +49,7 @@ A secure, enterprise-level web portal built with **Flask** and **Supabase (Postg
 ### 1. Clone the Repository
 ```bash
 git clone <your-repository-url>
-cd Internship-Project
+cd Bank-Port-Bank-Guarantee-Portal
 ```
 
 ### 2. Configure Environment Variables
